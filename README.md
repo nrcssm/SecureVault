@@ -1,8 +1,7 @@
 # SecureVault
 
-**SecureVault** - a desktop application for Windows that stores files and folders in an encrypted container. The container can be a file on your computer, USB drive or external disk. The app provides its own file interface for working with data inside storage.
+**Desktop application for Windows that stores files and folders in an encrypted container. The container can be a file on your computer, USB drive or external disk. The app provides its own file interface for working with data inside storage.
 
-> SecureVault does not mount the container as a separate disk in Windows Explorer. Use the app interface to access its content.
 
 ## Opportunities
 
@@ -18,31 +17,22 @@
 - Sketches of images and videos in the form of icons; Typical icons for other files
 - Preview images in the app. Other files are opened by default by Windows after temporary extraction.
 - Seal the container after data is deleted, so that the freed space is returned to the storage file.
-- A macOS-style interface with light and dark design support Windows 11 uses the Mica effect, if available.
+- A acrylic style interface with light and dark design support Windows 11 uses the Mica effect, if available.
 
 ## Get Started
 
 ### Requirements
 
-- Windows 10 версии 1809 или новее либо Windows 11.
+- Windows 10 build 1809 or newer / Windows 11.
 - . NET 10 to run the app.
 - To build from source - . NET 10 SDK. You can also use Visual Studio with a classic app development component, NET and WPF support.
 
-### Запуск из Visual Studio
+### Run app
 
-1. Open `SecureVault.sln'.
-2. Restore NuGet packages.
-3. Start the project with the keys **F5**.
-
-### Build from command line
-
-From the project root folder:
-
-```powershell
-dotnet restore SecureVault.sln
-dotnet build SecureVault.sln --configuration Release
-```
-
+1. Open `SecureVault.exe'.
+2. Create secure storage.
+3. Enjoy.
+   
 ### First storage
 
 1. Open the setup menu and select **Create Disk... **.
@@ -74,17 +64,10 @@ Deleting files frees up the blocks they occupy and tightens the container. There
 
 **Important:** Remember your password and keep a backup copy of the container file. Deleting or damaging a container can result in data loss. Before retrieving the storage device, turn off the storage and wait until operations are complete. Deleting your password reduces the container’s protection to the level of the current Windows account.
 
-## Solution Structure
-
-| Project/ file | Assignment |
-| --- | --- |
-| `SecureVault.App` | WPF desktop: interface, settings, operations queue, preview and sketches. |
-| SecureVault.Core` | Encrypted container and file storage system. |
-| #SecureVault.sln# | Visual Studio solution for app build and kernel. |
 
 ## Limitations
 
-- The container is not connected to the Explorer as a disc with a letter. Support for this mode requires a separate WinFsp project.
+- The container can't connected to the Explorer as a disc with a letter.
 - Files opened by external applications are temporarily decrypted in the `%TEMP%' system folder. Don’t leave such files open on devices you don’t trust.
 - Deleting a container destroys the data stored in it; Make sure that you have selected the correct file and saved the necessary backups.
 
@@ -95,7 +78,4 @@ Deleting files frees up the blocks they occupy and tightens the container. There
 - Windows DPAPI for local key storage when the password is removed.
 - Win32 Shell API to get file thumbnails
 
-## License
-
-The repository does not have a license file at the time this description is prepared. Clarify the terms of use and distribution with the project author.
 
