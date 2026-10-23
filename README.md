@@ -24,8 +24,7 @@ Desktop application for Windows that stores files and folders in an encrypted co
 ### Requirements
 
 - Windows 10 build 1809 or newer / Windows 11.
-- . NET 10 to run the app.
-- To build from source - . NET 10 SDK. You can also use Visual Studio with a classic app development component, NET and WPF support.
+- . NET 10 to run the app if you want to use lite version without NET10 libs included.
 
 ### Run app
 
