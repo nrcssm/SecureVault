@@ -21,7 +21,7 @@ Desktop application for Windows that stores files and folders in an encrypted co
 
 📸 Screenshots
 ![Locked](https://github.com/nrcssm/SecureVault/blob/main/Screen_1.png?raw=true "Locked")
-![Menu](https://github.com/nrcssm/SecureVault/blob/main/Screen_1.png?raw=true "Menu")
+![Menu](https://github.com/nrcssm/SecureVault/blob/main/Screen_2.png?raw=true "Menu")
 
 ## Get Started
 
