@@ -19,6 +19,10 @@ Desktop application for Windows that stores files and folders in an encrypted co
 - Seal the container after data is deleted, so that the freed space is returned to the storage file.
 - A acrylic style interface with light and dark design support Windows 11 uses the Mica effect, if available.
 
+📸 Screenshots
+![Locked](https://github.com/nrcssm/SecureVault/blob/main/Screen_1.png?raw=true "Locked")
+![Menu](https://github.com/nrcssm/SecureVault/blob/main/Screen_1.png?raw=true "Menu")
+
 ## Get Started
 
 ### Requirements
@@ -77,4 +81,10 @@ Deleting files frees up the blocks they occupy and tightens the container. There
 - Windows DPAPI for local key storage when the password is removed.
 - Win32 Shell API to get file thumbnails
 
+Support the Project
+If you find this project useful, you can support its development on Boosty. Your contribution helps cover maintenance costs, new features, and ongoing improvements.
+
+👉 Support us on Boosty: https://boosty.to/nrcssm
+
+Thank you for your support! ❤️
 
