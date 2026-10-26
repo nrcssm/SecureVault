@@ -20,6 +20,22 @@ Desktop application for Windows that stores files and folders in an encrypted co
 - A acrylic style interface with light and dark design support Windows 11 uses the Mica effect, if available.
 
 📸 Screenshots
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
 ![Locked](https://github.com/nrcssm/SecureVault/blob/main/Screen_1.png?raw=true "Locked")
 ![Menu](https://github.com/nrcssm/SecureVault/blob/main/Screen_2.png?raw=true "Menu")
 
